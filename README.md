@@ -9,7 +9,7 @@ Para definir a orientação do desenho, foi necessário entender e aplicar o fac
 A maior dificuldade no projeto foi entender a lógica no código dos vértices e identificar na base de exemplos da aula, como fazer alterações nos arquivos base.
 Após entender esses processos dos exemplos, bastou adaptar e criar a própria renderização de um desenho 3d e buildar o executável.
 
-
+Link do vídeo do projeto: https://youtu.be/zZmfw7VpBws
 ----
 
 ABCg
