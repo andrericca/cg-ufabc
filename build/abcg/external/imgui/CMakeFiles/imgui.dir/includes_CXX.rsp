@@ -1,0 +1,1 @@
+-I/home/andre/emsdk/upstream/emscripten/cache/sysroot/include/SDL2 -I/usr/local/include -I/opt/local/include -I/home/andre/abcg/abcg/external/imgui
