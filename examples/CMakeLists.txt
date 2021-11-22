@@ -1,5 +1,1 @@
-#add_subdirectory(helloworld)
-#add_subdirectory(firstapp)
-#add_subdirectory(asteroids2)
-add_subdirectory(loadmodel)
-#add_subdirectory(Hogwarts)
+add_subdirectory(Hogwarts)

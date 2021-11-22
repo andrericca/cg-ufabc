@@ -1,4 +1,3 @@
-project(viewer4)
-add_executable(${PROJECT_NAME} main.cpp model.cpp openglwindow.cpp
-                               trackball.cpp)
+project(loadmodel)
+add_executable(${PROJECT_NAME} main.cpp openglwindow.cpp)
 enable_abcg(${PROJECT_NAME})

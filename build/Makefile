@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andre/abcg
+CMAKE_SOURCE_DIR = /home/andre/cg-ufabc
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andre/abcg/build
+CMAKE_BINARY_DIR = /home/andre/cg-ufabc/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andre/abcg/build/CMakeFiles /home/andre/abcg/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andre/cg-ufabc/build/CMakeFiles /home/andre/cg-ufabc/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/andre/abcg/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andre/cg-ufabc/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -165,7 +165,7 @@ loadmodel: cmake_check_build_system
 
 # fast build rule for target.
 loadmodel/fast:
-	$(MAKE) $(MAKESILENT) -f examples/loadmodel/CMakeFiles/loadmodel.dir/build.make examples/loadmodel/CMakeFiles/loadmodel.dir/build
+	$(MAKE) $(MAKESILENT) -f examples/Hogwarts/CMakeFiles/loadmodel.dir/build.make examples/Hogwarts/CMakeFiles/loadmodel.dir/build
 .PHONY : loadmodel/fast
 
 # Help Target

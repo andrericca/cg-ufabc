@@ -7,21 +7,23 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/andre/abcg/build/CMakeFiles/3.21.3/CMakeCCompiler.cmake"
-  "/home/andre/abcg/build/CMakeFiles/3.21.3/CMakeSystem.cmake"
-  "/home/andre/abcg/build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt"
-  "/home/andre/emsdk/upstream/emscripten/cmake/Modules/CMakeSystemSpecificInformation.cmake"
-  "/home/andre/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+  "/home/andre/cg-ufabc/build/CMakeFiles/3.21.3/CMakeCCompiler.cmake"
+  "/home/andre/cg-ufabc/build/CMakeFiles/3.21.3/CMakeSystem.cmake"
+  "/home/andre/cg-ufabc/build/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt"
   "/usr/share/cmake-3.21/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/share/cmake-3.21/Modules/CMakeGenericSystem.cmake"
   "/usr/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake"
   "/usr/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake"
+  "/usr/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake"
   "/usr/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-  "/usr/share/cmake-3.21/Modules/Compiler/Clang-C.cmake"
-  "/usr/share/cmake-3.21/Modules/Compiler/Clang.cmake"
+  "/usr/share/cmake-3.21/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.21/Modules/Compiler/GNU.cmake"
+  "/usr/share/cmake-3.21/Modules/Platform/Linux-GNU-C.cmake"
+  "/usr/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake"
+  "/usr/share/cmake-3.21/Modules/Platform/Linux.cmake"
+  "/usr/share/cmake-3.21/Modules/Platform/UnixPaths.cmake"
   )
 
 # The corresponding makefile is:

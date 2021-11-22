@@ -1,1 +1,0 @@
--I/home/andre/abcg/abcg -I/home/andre/abcg/abcg/external/cppitertools -I/home/andre/abcg/abcg/external/fmt -I/home/andre/abcg/abcg/external/glm/.. -I/home/andre/emsdk/upstream/emscripten/cache/sysroot/include/SDL2 -I/home/andre/abcg/abcg/external/imgui -isystem /home/andre/abcg/abcg/external

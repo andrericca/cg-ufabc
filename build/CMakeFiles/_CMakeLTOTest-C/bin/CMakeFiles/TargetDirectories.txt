@@ -1,4 +1,4 @@
-/home/andre/abcg/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/rebuild_cache.dir
-/home/andre/abcg/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/edit_cache.dir
-/home/andre/abcg/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir
-/home/andre/abcg/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir
+/home/andre/cg-ufabc/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/rebuild_cache.dir
+/home/andre/cg-ufabc/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/edit_cache.dir
+/home/andre/cg-ufabc/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir
+/home/andre/cg-ufabc/build/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir
