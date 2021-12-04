@@ -201,14 +201,17 @@ abcg/external/imgui/clean: abcg/external/imgui/CMakeFiles/imgui.dir/clean
 
 # Recursive "all" directory target.
 examples/all: examples/Hogwarts/all
+examples/all: examples/hogwarts2/all
 .PHONY : examples/all
 
 # Recursive "preinstall" directory target.
 examples/preinstall: examples/Hogwarts/preinstall
+examples/preinstall: examples/hogwarts2/preinstall
 .PHONY : examples/preinstall
 
 # Recursive "clean" directory target.
 examples/clean: examples/Hogwarts/clean
+examples/clean: examples/hogwarts2/clean
 .PHONY : examples/clean
 
 #=============================================================================
@@ -225,6 +228,21 @@ examples/Hogwarts/preinstall:
 # Recursive "clean" directory target.
 examples/Hogwarts/clean: examples/Hogwarts/CMakeFiles/loadmodel.dir/clean
 .PHONY : examples/Hogwarts/clean
+
+#=============================================================================
+# Directory level rules for directory examples/hogwarts2
+
+# Recursive "all" directory target.
+examples/hogwarts2/all: examples/hogwarts2/CMakeFiles/hogwarts2.dir/all
+.PHONY : examples/hogwarts2/all
+
+# Recursive "preinstall" directory target.
+examples/hogwarts2/preinstall:
+.PHONY : examples/hogwarts2/preinstall
+
+# Recursive "clean" directory target.
+examples/hogwarts2/clean: examples/hogwarts2/CMakeFiles/hogwarts2.dir/clean
+.PHONY : examples/hogwarts2/clean
 
 #=============================================================================
 # Target rules for target abcg/CMakeFiles/abcg.dir
@@ -260,7 +278,7 @@ abcg/CMakeFiles/abcg.dir/clean:
 abcg/external/imgui/CMakeFiles/imgui.dir/all:
 	$(MAKE) $(MAKESILENT) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/depend
 	$(MAKE) $(MAKESILENT) -f abcg/external/imgui/CMakeFiles/imgui.dir/build.make abcg/external/imgui/CMakeFiles/imgui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andre/cg-ufabc/build/CMakeFiles --progress-num=12,13,14,15,16,17,18,19 "Built target imgui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andre/cg-ufabc/build/CMakeFiles --progress-num=17,18,19,20,21,22,23,24 "Built target imgui"
 .PHONY : abcg/external/imgui/CMakeFiles/imgui.dir/all
 
 # Build rule for subdir invocation for target.
@@ -314,7 +332,7 @@ examples/Hogwarts/CMakeFiles/loadmodel.dir/all: abcg/external/imgui/CMakeFiles/i
 examples/Hogwarts/CMakeFiles/loadmodel.dir/all: abcg/external/fmt/CMakeFiles/fmt.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/Hogwarts/CMakeFiles/loadmodel.dir/build.make examples/Hogwarts/CMakeFiles/loadmodel.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/Hogwarts/CMakeFiles/loadmodel.dir/build.make examples/Hogwarts/CMakeFiles/loadmodel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andre/cg-ufabc/build/CMakeFiles --progress-num=20,21,22 "Built target loadmodel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andre/cg-ufabc/build/CMakeFiles --progress-num=25,26,27 "Built target loadmodel"
 .PHONY : examples/Hogwarts/CMakeFiles/loadmodel.dir/all
 
 # Build rule for subdir invocation for target.
@@ -332,6 +350,34 @@ loadmodel: examples/Hogwarts/CMakeFiles/loadmodel.dir/rule
 examples/Hogwarts/CMakeFiles/loadmodel.dir/clean:
 	$(MAKE) $(MAKESILENT) -f examples/Hogwarts/CMakeFiles/loadmodel.dir/build.make examples/Hogwarts/CMakeFiles/loadmodel.dir/clean
 .PHONY : examples/Hogwarts/CMakeFiles/loadmodel.dir/clean
+
+#=============================================================================
+# Target rules for target examples/hogwarts2/CMakeFiles/hogwarts2.dir
+
+# All Build rule for target.
+examples/hogwarts2/CMakeFiles/hogwarts2.dir/all: abcg/CMakeFiles/abcg.dir/all
+examples/hogwarts2/CMakeFiles/hogwarts2.dir/all: abcg/external/imgui/CMakeFiles/imgui.dir/all
+examples/hogwarts2/CMakeFiles/hogwarts2.dir/all: abcg/external/fmt/CMakeFiles/fmt.dir/all
+	$(MAKE) $(MAKESILENT) -f examples/hogwarts2/CMakeFiles/hogwarts2.dir/build.make examples/hogwarts2/CMakeFiles/hogwarts2.dir/depend
+	$(MAKE) $(MAKESILENT) -f examples/hogwarts2/CMakeFiles/hogwarts2.dir/build.make examples/hogwarts2/CMakeFiles/hogwarts2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/andre/cg-ufabc/build/CMakeFiles --progress-num=12,13,14,15,16 "Built target hogwarts2"
+.PHONY : examples/hogwarts2/CMakeFiles/hogwarts2.dir/all
+
+# Build rule for subdir invocation for target.
+examples/hogwarts2/CMakeFiles/hogwarts2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andre/cg-ufabc/build/CMakeFiles 24
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/hogwarts2/CMakeFiles/hogwarts2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/andre/cg-ufabc/build/CMakeFiles 0
+.PHONY : examples/hogwarts2/CMakeFiles/hogwarts2.dir/rule
+
+# Convenience name for target.
+hogwarts2: examples/hogwarts2/CMakeFiles/hogwarts2.dir/rule
+.PHONY : hogwarts2
+
+# clean rule for target.
+examples/hogwarts2/CMakeFiles/hogwarts2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f examples/hogwarts2/CMakeFiles/hogwarts2.dir/build.make examples/hogwarts2/CMakeFiles/hogwarts2.dir/clean
+.PHONY : examples/hogwarts2/CMakeFiles/hogwarts2.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

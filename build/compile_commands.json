@@ -88,5 +88,25 @@
   "directory": "/home/andre/cg-ufabc/build/examples/Hogwarts",
   "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/andre/cg-ufabc/abcg -I/home/andre/cg-ufabc/abcg/external/cppitertools -I/home/andre/cg-ufabc/abcg/external/fmt -I/home/andre/cg-ufabc/abcg/external/glm/.. -I/home/andre/cg-ufabc/abcg/external/imgui -isystem /home/andre/cg-ufabc/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/loadmodel.dir/openglwindow.cpp.o -c /home/andre/cg-ufabc/examples/Hogwarts/openglwindow.cpp",
   "file": "/home/andre/cg-ufabc/examples/Hogwarts/openglwindow.cpp"
+},
+{
+  "directory": "/home/andre/cg-ufabc/build/examples/hogwarts2",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/andre/cg-ufabc/abcg -I/home/andre/cg-ufabc/abcg/external/cppitertools -I/home/andre/cg-ufabc/abcg/external/fmt -I/home/andre/cg-ufabc/abcg/external/glm/.. -I/home/andre/cg-ufabc/abcg/external/imgui -isystem /home/andre/cg-ufabc/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/hogwarts2.dir/main.cpp.o -c /home/andre/cg-ufabc/examples/hogwarts2/main.cpp",
+  "file": "/home/andre/cg-ufabc/examples/hogwarts2/main.cpp"
+},
+{
+  "directory": "/home/andre/cg-ufabc/build/examples/hogwarts2",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/andre/cg-ufabc/abcg -I/home/andre/cg-ufabc/abcg/external/cppitertools -I/home/andre/cg-ufabc/abcg/external/fmt -I/home/andre/cg-ufabc/abcg/external/glm/.. -I/home/andre/cg-ufabc/abcg/external/imgui -isystem /home/andre/cg-ufabc/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/hogwarts2.dir/model.cpp.o -c /home/andre/cg-ufabc/examples/hogwarts2/model.cpp",
+  "file": "/home/andre/cg-ufabc/examples/hogwarts2/model.cpp"
+},
+{
+  "directory": "/home/andre/cg-ufabc/build/examples/hogwarts2",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/andre/cg-ufabc/abcg -I/home/andre/cg-ufabc/abcg/external/cppitertools -I/home/andre/cg-ufabc/abcg/external/fmt -I/home/andre/cg-ufabc/abcg/external/glm/.. -I/home/andre/cg-ufabc/abcg/external/imgui -isystem /home/andre/cg-ufabc/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/hogwarts2.dir/openglwindow.cpp.o -c /home/andre/cg-ufabc/examples/hogwarts2/openglwindow.cpp",
+  "file": "/home/andre/cg-ufabc/examples/hogwarts2/openglwindow.cpp"
+},
+{
+  "directory": "/home/andre/cg-ufabc/build/examples/hogwarts2",
+  "command": "/usr/bin/c++  -I/usr/include/SDL2 -I/home/andre/cg-ufabc/abcg -I/home/andre/cg-ufabc/abcg/external/cppitertools -I/home/andre/cg-ufabc/abcg/external/fmt -I/home/andre/cg-ufabc/abcg/external/glm/.. -I/home/andre/cg-ufabc/abcg/external/imgui -isystem /home/andre/cg-ufabc/abcg/external -g -flto -fno-fat-lto-objects -Wall -Wextra -pedantic -std=gnu++2a -o CMakeFiles/hogwarts2.dir/trackball.cpp.o -c /home/andre/cg-ufabc/examples/hogwarts2/trackball.cpp",
+  "file": "/home/andre/cg-ufabc/examples/hogwarts2/trackball.cpp"
 }
 ]

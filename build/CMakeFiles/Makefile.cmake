@@ -27,6 +27,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../cmake/Warnings.cmake"
   "../examples/CMakeLists.txt"
   "../examples/Hogwarts/CMakeLists.txt"
+  "../examples/hogwarts2/CMakeLists.txt"
   "/usr/share/cmake-3.21/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.21/Modules/CMakeCInformation.cmake"
@@ -164,6 +165,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "abcg/external/gsl/CMakeFiles/CMakeDirectoryInformation.cmake"
   "examples/CMakeFiles/CMakeDirectoryInformation.cmake"
   "examples/Hogwarts/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "examples/hogwarts2/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -172,4 +174,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "abcg/external/imgui/CMakeFiles/imgui.dir/DependInfo.cmake"
   "abcg/external/fmt/CMakeFiles/fmt.dir/DependInfo.cmake"
   "examples/Hogwarts/CMakeFiles/loadmodel.dir/DependInfo.cmake"
+  "examples/hogwarts2/CMakeFiles/hogwarts2.dir/DependInfo.cmake"
   )

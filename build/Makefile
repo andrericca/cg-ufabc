@@ -168,6 +168,19 @@ loadmodel/fast:
 	$(MAKE) $(MAKESILENT) -f examples/Hogwarts/CMakeFiles/loadmodel.dir/build.make examples/Hogwarts/CMakeFiles/loadmodel.dir/build
 .PHONY : loadmodel/fast
 
+#=============================================================================
+# Target rules for targets named hogwarts2
+
+# Build rule for target.
+hogwarts2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hogwarts2
+.PHONY : hogwarts2
+
+# fast build rule for target.
+hogwarts2/fast:
+	$(MAKE) $(MAKESILENT) -f examples/hogwarts2/CMakeFiles/hogwarts2.dir/build.make examples/hogwarts2/CMakeFiles/hogwarts2.dir/build
+.PHONY : hogwarts2/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -178,6 +191,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... abcg"
 	@echo "... fmt"
+	@echo "... hogwarts2"
 	@echo "... imgui"
 	@echo "... loadmodel"
 .PHONY : help

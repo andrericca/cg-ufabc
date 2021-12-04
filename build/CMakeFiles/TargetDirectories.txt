@@ -22,3 +22,6 @@
 /home/andre/cg-ufabc/build/examples/Hogwarts/CMakeFiles/rebuild_cache.dir
 /home/andre/cg-ufabc/build/examples/Hogwarts/CMakeFiles/edit_cache.dir
 /home/andre/cg-ufabc/build/examples/Hogwarts/CMakeFiles/loadmodel.dir
+/home/andre/cg-ufabc/build/examples/hogwarts2/CMakeFiles/rebuild_cache.dir
+/home/andre/cg-ufabc/build/examples/hogwarts2/CMakeFiles/edit_cache.dir
+/home/andre/cg-ufabc/build/examples/hogwarts2/CMakeFiles/hogwarts2.dir
